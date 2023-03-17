@@ -539,7 +539,7 @@ export default function Home() {
           </p>
           <p>
             Nếu Quý Khách có thắc mắc, xin vui lòng liên hệ số hotline
-            <span>19006969</span>.
+            <a href={`tel:0965183143`}> <span>0965183143</span>.</a>
           </p>
           <button onClick={closeModal}>Close</button>
         </div>

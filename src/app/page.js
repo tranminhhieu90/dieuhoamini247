@@ -511,15 +511,15 @@ export default function Home() {
         </div>
         <div className={styles.footer_contact}>
           <FaHome style={{ marginRight: 10, fontSize: 25 }} />
-          <p>Số 39A Nguyễn Trãi, Thượng Đình, Thanh Xuân, TP Hà Nội</p>
+          <p>Số 86 Nguyễn Đổng Chi, Cầu Diễn, Nam Từ Liêm, Hà Nội</p>
         </div>
         <div className={styles.footer_contact}>
           <FaPhoneAlt style={{ marginRight: 10, fontSize: 20 }} />
-          <p>0123 456 789</p>
+          <p>0965183143</p>
         </div>
         <div className={styles.footer_contact}>
           <AiOutlineMail style={{ marginRight: 10, fontSize: 20 }} />
-          <p>example@gmail.com</p>
+          <p>dieuhoamini247@gmail.com</p>
         </div>
       </div>
       <Modal
@@ -544,7 +544,7 @@ export default function Home() {
           <button onClick={closeModal}>Close</button>
         </div>
       </Modal>
-      <ToastContainer
+      {/* <ToastContainer
         className={styles.toast_container}
         bodyClassName={styles.toasty_body}
         position="top-right"
@@ -552,9 +552,9 @@ export default function Home() {
         hideProgressBar={true}
         closeButton={false}
         limit={1}
-      />
+      /> */}
       <div className={styles.fix_tel}>
-        <a href={`tel:0356235391`}>
+        <a href={`tel:0965183143`}>
           <FaPhoneAlt />
         </a>
       </div>

@@ -17,6 +17,7 @@ import emailjs from "@emailjs/browser";
 import { FaHome, FaPhoneAlt } from "react-icons/fa";
 import { AiOutlineMail, AiOutlineCheckCircle } from "react-icons/ai";
 import Comments from "@/components/comments";
+import { slideImages } from "@/uititiles/slideImages";
 const schema = yup
   .object({
     name: yup.string(),
@@ -114,7 +115,7 @@ export default function Home() {
     customPaging: function (i) {
       return (
         <div className={styles.slide_paging}>
-          <img src={`images/slide-${i + 1}.jpeg`} />
+          <img src={slideImages[i]} />
         </div>
       );
     },
@@ -172,18 +173,13 @@ export default function Home() {
       </div>
       <div className={styles.slide}>
         <Slider {...settings}>
-          <div className={styles.home_slide_item}>
-            <img alt="" src="images/slide-1.jpeg" />
-          </div>
-          <div className={styles.home_slide_item}>
-            <img alt="" src="images/slide-2.jpeg" />
-          </div>
-          <div className={styles.home_slide_item}>
-            <img alt="" src="images/slide-3.jpeg" />
-          </div>
-          <div className={styles.home_slide_item}>
-            <img alt="" src="images/slide-4.jpeg" />
-          </div>
+          {slideImages.map((item, index) => {
+            return (
+              <div key={index} className={styles.home_slide_item}>
+                <img alt="" src={item}/>
+              </div>
+            );
+          })}
         </Slider>
       </div>
       <div className={styles.paragraph}>
@@ -544,7 +540,7 @@ export default function Home() {
           <button onClick={closeModal}>Close</button>
         </div>
       </Modal>
-      {/* <ToastContainer
+      <ToastContainer
         className={styles.toast_container}
         bodyClassName={styles.toasty_body}
         position="top-right"
@@ -552,7 +548,7 @@ export default function Home() {
         hideProgressBar={true}
         closeButton={false}
         limit={1}
-      /> */}
+      />
       <div className={styles.fix_tel}>
         <a href={`tel:0965183143`}>
           <FaPhoneAlt />

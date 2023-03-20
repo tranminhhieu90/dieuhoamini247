@@ -176,7 +176,7 @@ export default function Home() {
           {slideImages.map((item, index) => {
             return (
               <div key={index} className={styles.home_slide_item}>
-                <img alt="" src={item}/>
+                <img alt="" src={item} />
               </div>
             );
           })}
@@ -300,6 +300,11 @@ export default function Home() {
               <td>1,500mm</td>
             </tr>
           </table>
+        </div>
+        <div className={styles.product_video}>
+          <video controls>
+            <source src="https://s3.eu-west-1.amazonaws.com/www.bristolberlin.com/media/functions/IMG_0315.MOV" />
+          </video>
         </div>
         <div className={styles.product_block}>
           <div className={styles.product_detail_title}>TÍNH NĂNG</div>
@@ -535,7 +540,10 @@ export default function Home() {
           </p>
           <p>
             Nếu Quý Khách có thắc mắc, xin vui lòng liên hệ số hotline
-            <a href={`tel:0965183143`}> <span>0965183143</span>.</a>
+            <a href={`tel:0965183143`}>
+              {" "}
+              <span>0965183143</span>.
+            </a>
           </p>
           <button onClick={closeModal}>Close</button>
         </div>

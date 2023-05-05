@@ -209,8 +209,8 @@ export default function Home() {
         <p>Làm lạnh nhanh tích kiệm điện</p>
         <p>
           Điều hòa thông minh di động có thiết kế nhỏ gọn và linh động, nhưng
-          tích hợp đầy đủ tính năng thông minh 3 trong 1 - Làm mát - Hút ẩm- Chế
-          độ suởi.
+          tích hợp đầy đủ tính năng thông minh 3 trong 1 - Làm mát - Hút ẩm - Chế
+          độ sưởi.
         </p>
       </div>
       <div className={styles.slide}>
@@ -233,7 +233,7 @@ export default function Home() {
           thiết bị, nên máy điều hòa mini không cần lắp đặt như các dòng gắn
           tường thông thường và có thể di chuyển linh động. Dòng điều hòa có
           thiết kế nhỏ gọn, linh động nhưng tích hợp đầy đủ tính năng thông minh
-          3 trong 1 - làm mát- hút ẩm- chế độ suởi.
+          3 trong 1 - làm mát - hút ẩm - chế độ sưởi.
         </p>
       </div>
       <div className={styles.post_img}>
@@ -263,7 +263,7 @@ export default function Home() {
             </tr>
             <tr>
               <td>Kiểu loại</td>
-              <td>Mini/Di động</td>
+              <td>Mini / Di động</td>
               <td>Mức độ ồn</td>
               <td>≤38dB(A)</td>
             </tr>
@@ -275,7 +275,7 @@ export default function Home() {
             </tr>
             <tr>
               <td>Chức năng</td>
-              <td>Điều hòa / Sưởi/ Hút Ẩm</td>
+              <td>Điều hòa / Sưởi / Hút Ẩm</td>
               <td>Kích thước máy</td>
               <td>285*460*230</td>
             </tr>

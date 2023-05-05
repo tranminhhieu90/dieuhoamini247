@@ -206,7 +206,7 @@ export default function Home() {
       </div>
       <div className={styles.adve}>
         <h3>Điều Hoà Mini Chất Lượng Cao</h3>
-        <p>Làm lạnh nhanh tích kiệm điện</p>
+        <p>Làm lạnh nhanh tiết kiệm điện</p>
         <p>
           Điều hòa thông minh di động có thiết kế nhỏ gọn và linh động, nhưng
           tích hợp đầy đủ tính năng thông minh 3 trong 1 - Làm mát - Hút ẩm - Chế

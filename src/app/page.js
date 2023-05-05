@@ -257,7 +257,7 @@ export default function Home() {
           <table className={styles.table}>
             <tr>
               <td>Mẫu mã</td>
-              <td>KZY-11</td>
+              <td>KZY</td>
               <td>Dòng điện định mức</td>
               <td>1.34A</td>
             </tr>
@@ -289,7 +289,7 @@ export default function Home() {
               <td>Công suất tiêu thụ điện</td>
               <td>280W</td>
               <td>Khối lượng</td>
-              <td>9kg/10kg</td>
+              <td>12kg</td>
             </tr>
             {/* <tr>
               <td>Nguồn điện</td>
@@ -371,17 +371,6 @@ export default function Home() {
               }}
             />
             <b>Chế độ hút ẩm</b>
-          </div>
-          <div className={styles.product_detail_item}>
-            <AiOutlineCheckCircle
-              style={{
-                marginRight: 10,
-                fontSize: 26,
-                color: "#0077ffd6",
-                fontWeight: 700,
-              }}
-            />
-            <b>Động cơ DC không chổi than</b>
           </div>
           <div className={styles.product_detail_item}>
             <AiOutlineCheckCircle

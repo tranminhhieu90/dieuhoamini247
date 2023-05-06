@@ -553,7 +553,7 @@ export default function Home() {
         </div>
         <div className={styles.footer_contact}>
           <FaPhoneAlt style={{ marginRight: 10, fontSize: 20 }} />
-          <p>0965183143</p>
+          <p>0356235391</p>
         </div>
         <div className={styles.footer_contact}>
           <AiOutlineMail style={{ marginRight: 10, fontSize: 20 }} />
@@ -594,7 +594,7 @@ export default function Home() {
         limit={1}
       />
       <div className={styles.fix_tel}>
-        <a href={`tel:0965183143`}>
+        <a href={`tel:0356235391`}>
           <FaPhoneAlt />
         </a>
       </div>

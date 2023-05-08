@@ -553,7 +553,14 @@ export default function Home() {
         </div>
         <div className={styles.footer_contact}>
           <FaPhoneAlt style={{ marginRight: 10, fontSize: 20 }} />
-          <p>0356235391</p>
+          <a href={`tel:0356235391`}>
+              <span>0356235391 </span>
+             
+            </a>
+            <span style={{margin: '0 5px'}}>-</span>
+            <a href={`tel:0865856855`}>
+              <span> 0865856855</span>
+            </a>
         </div>
         <div className={styles.footer_contact}>
           <AiOutlineMail style={{ marginRight: 10, fontSize: 20 }} />
@@ -578,7 +585,10 @@ export default function Home() {
           <p>
             Nếu Quý Khách có thắc mắc, xin vui lòng liên hệ số hotline
             <a href={`tel:0356235391`}>
-              <span>0356235391</span>.
+              <span>0356235391</span> - 
+            </a>
+            <a href={`tel:0865856855`}>
+              <span>0865856855</span>
             </a>
           </p>
           <button onClick={closeModal}>Close</button>
